@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "sass": "^1.89.2"
+  },
+  "scripts": {
+  "start": "lite-server",
+  "lite": "lite-server --open=public/main.html",
+  "scss": "sass --watch scss:public/css"
+}
+}
