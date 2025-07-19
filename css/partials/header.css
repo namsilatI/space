@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header .header__logo {
+  width: 512px;
+}
+
+/*# sourceMappingURL=header.css.map */

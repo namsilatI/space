@@ -1,7 +1,7 @@
 {
   "injectChanges": false,
   "files": [ "./**/*.{html,htm,css,js}" ],
-  "startPath": "public/major/main.html",
+  "startPath": "partials/header.html",
   "watchOptions": { 
     "ignored": "node_modules" 
 },
