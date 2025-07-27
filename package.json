@@ -5,6 +5,8 @@
   },
   "scripts": {
     "start": "lite-server",
+    "header": "lite-server --baseDir=partials --open=header.html",
+    "footer": "lite-server --baseDir=partials --open=footer.html",
     "lite": "lite-server --open=public/major/main.html",
     "scss": "sass --watch scss:css"
   },

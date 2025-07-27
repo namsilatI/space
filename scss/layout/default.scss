@@ -22,8 +22,8 @@ input { outline: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; max-width: 100%; }
 
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { text-decoration: none; color: black;}
+a:hover { text-decoration: none; }
 
 body{
   display: flex;
@@ -32,5 +32,12 @@ body{
 .container{
   width: 100%;
   max-width: 85%;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
